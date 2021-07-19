@@ -1,5 +1,5 @@
 # Pull base image.
-FROM node:10
+FROM node:14
 
 # Install Angular CLI
 RUN npm install -g @angular/cli
